@@ -1,6 +1,6 @@
 {
   "name": "connstringgen",
-  "displayName": "connstring-gen",
+  "displayName": "Connection String Generator",
   "description": "Connection String Generator",
   "author": {
     "name": "Tinashe Chitakunye",
@@ -10,7 +10,7 @@
   "repository": {
     "url": "https://github.com/tinashe/connstringgen"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.79.0"
   },
