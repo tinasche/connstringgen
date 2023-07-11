@@ -3,3 +3,8 @@ dist
 node_modules
 .vscode-test/
 *.vsix
+<<<<<<< HEAD
+=======
+
+.fake
+>>>>>>> 4dac55e9da7b919a45916331477528f12e054ce6
