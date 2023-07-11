@@ -1,0 +1,19 @@
+{
+    "sqlserver": {
+        "standard": "Server={myServerAddress};Database={myDataBase};User Id={myUsername};Password={myPassword};Asynchronous Processing=True;",
+        "win_auth": "Server={myServerAddress};Database={myDataBase};Trusted_Connection=True;",
+        "with_mars": "Server={myServerAddress};Database={myDataBase};Trusted_Connection=True;MultipleActiveResultSets=true;",
+        "localdb": "Server=(localdb)\\{MyInstance};Integrated Security=true;"
+    },
+    "mysql": {
+        "standard": "Server={myServerAddress};Database={myDataBase};Uid={myUsername};Pwd={myPassword};Port={1234};",
+        "encrypted_connection": "Server={myServerAddress};Database={myDataBase};Uid={myUsername};Pwd={myPassword};SslMode=Preferred;Keepalive=10;",
+        "table_caching": "Server={myServerAddress};Database={myDataBase};Uid={myUsername};Pwd={myPassword};tablecache=true;DefaultTableCacheAge=30;",
+        "win_auth": "Server={myServerAddress};Database={myDataBase};IntegratedSecurity=yes;Uid=auth_windows;"
+    },
+    "postgres": {
+        "standard": "Server={127.0.0.1};Port=5432;Database={myDataBase};User Id={myUsername};Password={myPassword};",
+        "win_auth": "Server={127.0.0.1};Port=5432;Database={myDataBase};Integrated Security=true;",
+        "with_ssl": "Server={127.0.0.1};Port=5432;Database={myDataBase};Userid={myUsername};Password={myPassword};Protocol=3;SSL=true;SslMode=Require;"
+    }
+}

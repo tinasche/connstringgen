@@ -10,7 +10,7 @@
   "repository": {
     "url": "https://github.com/tinashe/connstringgen"
   },
-  "version": "0.0.2",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.79.0"
   },
@@ -22,7 +22,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "connstringgen.selectDb",
+        "command": "connstringgen.showDb",
+        "title": "Get First Connection String"
+      },
+      {
+        "command": "connstringgen.showConn",
         "title": "Get Connection String"
       }
     ]

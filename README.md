@@ -16,10 +16,6 @@ If you have any requirements or dependencies, add a section describing those and
 - Support for more database engines.
 - Interactive flow to describe attributes for a connection string  i.e., authentication details, connection information, etc
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 
 ### 0.0.1
@@ -27,6 +23,12 @@ Calling out known issues can help limit users opening duplicate issues against y
 Initial release of __connstringgen__
 
 - Returns static connection strings for MySQL, PostgreSQL, MS Sql Server and Sqlite3
+
+### 1.0.1
+
+Initial release of __connstringgen__
+
+- More connection type options for MySQL, PostgreSQL and MS Sql Server.
 
 ---
 
