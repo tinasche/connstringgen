@@ -23,11 +23,11 @@
     "commands": [
       {
         "command": "connstringgen.showDb",
-        "title": "Get First Connection String"
+        "title": "Get Connection String"
       },
       {
         "command": "connstringgen.showConn",
-        "title": "Get Connection String"
+        "title": "Get ReConnection String"
       }
     ]
   },
